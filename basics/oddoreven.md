@@ -6,5 +6,6 @@ class Solution{
         } else {
             return "odd";
         }
-}
+     }
+   }
 ```
