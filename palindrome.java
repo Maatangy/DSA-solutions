@@ -11,7 +11,7 @@ class Solution
             rev=rev*10+n%10;
             n=n/10;
         }
-        else if(rev==original){
+        if(rev==original){
             return "yes";
         }
         else{
