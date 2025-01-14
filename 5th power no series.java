@@ -10,10 +10,7 @@
         return sum;
     }
 }
-
 // optimal approach 
-
-
 class Solution {
     long sumOfFifthPowers(long N) {
       long ans = ((N * N) * (N + 1) * (N + 1) * (2 * N * N + 2 * N - 1)) / 12;   // formula for finding sum of series raised to 5th power 
